@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset = "UTF-8">
+    <link rel="shortcut icon" href="text.png">
+    <link rel = "stylesheet" href = "estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <title>Arquivos com JavaScript</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="titulo">Salvando arquivos com JavaScript</h1>
+
+    </header>
+
+    <main>
+
+        <h2 id = "subtitulo">Escreva um texto e aperte o botão para salvá-lo em arquivo txt</h2>
+
+        <div id = "entrada1">
+
+            <label for = "nome"></label>
+            <input type = "text" id = "nome" placeholder = "Nome do arquivo" required>
+
+        </div>
+
+        <div id = "entrada2">
+
+            <label for = "texto"></label>
+            <textarea id = "texto" placeholder = "Digite um texto" required></textarea>
+
+        </div>
+
+        <div id = "botao">
+
+            <button id="btnSalvar" onclick = "salvar()">Salvar</button>
+
+        </div>
+
+    </main>
+
+    <footer id = "footer">
+
+        Feito por Miguel de Oliveira
+
+    </footer>
+
+</body>
+
+<script type = "text/javascript" src = "FileSaver.js"></script>
+<script src = "index.js"></script>
+
+</html>
